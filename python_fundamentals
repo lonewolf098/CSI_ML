@@ -1,0 +1,76 @@
+#creating the list
+mixed_list = ['a',1,12.,'ee','ooo',11,66,'alalla']
+
+#slicing the first three elements
+
+mixed_list[:3]
+
+#- Elements starting from the 2nd to the 5th position.
+
+mixed_list[2:6]
+
+mixed_list[-2:]
+
+###function with default arguments , we assume default discount percentage to be 10%
+
+def calculate_discount(original_price, discounted_percentage=10):
+    percentage=(discounted_percentage)/100
+    return original_price * (1-percentage)
+calculate_discount(6000)
+calculate_discount(70000)
+###flow controls
+#creating function with conditional statements and printing it
+def discount_price(price):
+    if(price < 50):
+        print('*** Low cost item ***')
+        
+    elif(price >= 50  and  price < 100):
+        print('*** Moderate cost item ***')
+    else:
+        print("*** High cost item ***")
+#calling the function with values
+discount_price(51)
+discount_price(1)
+discount_price(10000)
+
+# reading product description file and writing into formatting file
+
+f=open('product_descriptions.txt','r')
+r=open('formatted_descriptions.txt','w')
+
+#splitting the code into lines
+for line in f:
+    #making use of title function to make first letter of each word capital and writing into the format file
+    format=line.title()
+    r.write(format)
+
+
+
+    
+#advanced data strucutres
+
+#creating dictonary
+
+customer_info = {
+    'name':'tanmay',
+    'age':40,
+    'purchase_history':2
+}
+print(customer_info)
+
+#printing each value with the key
+
+print('\nname'," -> ",customer_info['name'])
+print('age'," -> ",customer_info['age'])
+print('purchase_history'," -> ",customer_info['purchase_history'])
+#class of book with attributes
+class book:
+    author='eichiroo oda'
+    title='one piece'
+    genre='adventure'
+#creating instance of class
+a=book()
+#calling the attributes of the instances
+a.author
+a.genre
+a.title
