@@ -1,5 +1,23 @@
 # CSI_ML
 
--->>>first task <<<----
-  In this task we create list name mixed list which contains different datatypes
-  1.in this 
+  PYTHON_FUNDAMENTALS.
+
+  I.CREATING A LIST AND PERFORM THE SLICING
+
+
+
+  II.FUNCTIONS.
+
+
+
+  III.CONTROL FLOW.
+
+
+
+  IV.FILE HANDLING.
+
+
+  V.ADVANCED DATA-STRUCTURES.
+
+
+  VI.CLASS
