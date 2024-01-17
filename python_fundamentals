@@ -7,7 +7,7 @@ mixed_list[:3]
 
 #- Elements starting from the 2nd to the 5th position.
 
-mixed_list[2:6]
+mixed_list[1:6]
 
 mixed_list[-2:]
 
